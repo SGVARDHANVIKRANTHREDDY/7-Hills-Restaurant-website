@@ -2,13 +2,16 @@
  * Static data for 7 Hills Restaurant AC / Non AC - 100% accurate digital menu
  */
 import { MenuItem, Review, FAQ } from '../types';
+import biryaniImage from '../assets/images/seven_hills_biryani_1783705348412.jpg';
+import dosaImage from '../assets/images/seven_hills_dosa_1783705359739.jpg';
+import tandooriImage from '../assets/images/seven_hills_tandoori_1783705387979.jpg';
 
 export const IMAGES = {
-  exterior: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpgZZhhlmHDkPPtkeTf5LlI3hvrZNccpn7gwg65MwyOg&s=10",
-  biryani: "/images/seven_hills_biryani_1783705348412.jpg",
-  dosa: "/images/seven_hills_dosa_1783705359739.jpg",
-  interior: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNooGPvUCUoYjWwuey9rXQF4_v2hGi-HYoLL6WRwPk5g&s=10",
-  tandoori: "/images/seven_hills_tandoori_1783705387979.jpg",
+  exterior: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpgZZhhlmHDkPPtkeTf5LlI3hvrZNccpn7gwg65MwyOg&s=10',
+  biryani: biryaniImage,
+  dosa: dosaImage,
+  interior: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNooGPvUCUoYjWwuey9rXQF4_v2hGi-HYoLL6WRwPk5g&s=10',
+  tandoori: tandooriImage,
 };
 
 export const RESTAURANT_INFO = {
