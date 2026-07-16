@@ -1,0 +1,6 @@
+{
+  "name": "7 Hills Restaurant AC / Non AC",
+  "description": "Premium multi-cuisine family diner in Tirupati specializing in Hyderabadi biryani, golden masala dosas, and perfectly cooked tandoori chicken.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
